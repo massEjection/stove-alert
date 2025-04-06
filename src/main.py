@@ -3,7 +3,7 @@ import Adafruit_DHT
 
 # Define the sensor type and the GPIO pin
 SENSOR = Adafruit_DHT.DHT22  # DHT22 or AM2302
-GPIO_PIN = 7  # Replace with your actual pin number
+GPIO_PIN = 11  # Replace with your actual pin number
 
 def read_temperature():
     """Read temperature and humidity from DHT22 sensor."""
