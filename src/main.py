@@ -18,4 +18,4 @@ def read_temperature():
 if __name__ == "__main__":
     while True:
         read_temperature()
-        time.sleep(5)  # Adjust interval as needed
+        time.sleep(1)  # Adjust interval as needed
