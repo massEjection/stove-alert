@@ -71,7 +71,7 @@ def main():
     while True:
         resultList = read_temperature()
         for i in range(len(resultList)):
-            print(f"Sensor: {resultList[i].sensor} Temperature: {resultList[i].temperature:.2f}°C, Humidity: {resultList[i].humidity:.2f}%")
+            print(f"Sensor: 1, Temperature: {resultList[i].temperature:.2f}°C, Humidity: {resultList[i].humidity:.2f}%")
 
         # if (temperature1 > TEMP_THRESHOLD) or (temperature2 > TEMP_THRESHOLD):
         #     avg_current_temp = mean(temperature1, temperature2)
