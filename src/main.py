@@ -1,7 +1,9 @@
 from statistics import mean
+from enum import Enum
 import time
 import Adafruit_DHT  # Install via `pip install Adafruit_DHT`
 import requests
+
 
 class SensorType(Enum):
     DHT11 = Adafruit_DHT.DHT11
